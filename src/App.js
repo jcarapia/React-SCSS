@@ -10,7 +10,6 @@ class App extends Component {
       <h1>Hello World!</h1> 
     )
   }
-
 };
 
 ReactDOM.render(<App />, document.querySelector("#app"));

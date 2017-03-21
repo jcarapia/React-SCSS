@@ -4,7 +4,7 @@
   "description": "A React Template with Webpack and SCSS",
   "main": "server.js",
   "engines": {
-    "node": "6.6"
+    "node": "6.6.0"
   },
   "scripts": {
     "start": "node server.js",

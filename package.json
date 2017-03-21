@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A React Template with Webpack and SCSS",
   "main": "server.js",
+  "engines": {
+    "node": "6.6"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "webpack-dev-server",

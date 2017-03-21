@@ -2,7 +2,7 @@
   "name": "react-webpack-scss",
   "version": "1.0.0",
   "description": "A React Template with Webpack and SCSS",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "webpack-dev-server",

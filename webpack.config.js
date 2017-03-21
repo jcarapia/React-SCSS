@@ -14,12 +14,8 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/public/'
   },
-  devServer: {
-    publicPath: '/public/',
-    historyApiFallback: true
-  },
   resolve: {
-    extensions: ['.js', '.json']
+    extensions: ['.js']
   },
   module: {
     rules: [
@@ -35,8 +31,7 @@ module.exports = {
                     loader: "css-loader"
                 }, {
                     loader: "sass-loader"
-                }],
-                // use style-loader in development 
+                }], 
                 fallback: "style-loader"
             })
       }
@@ -45,5 +40,4 @@ module.exports = {
   plugins: [
     extractSass
   ]
-
-}
+};

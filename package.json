@@ -19,13 +19,14 @@
     "babel-register": "^6.24.0",
     "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^2.1.0",
+    "image-webpack-loader": "^3.2.0",
     "node-sass": "^4.5.0",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.14.1",
-    "webpack-dev-server": "^2.4.2",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
   },
-    "dependencies": {
+  "dependencies": {
     "express": "^4.15.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
